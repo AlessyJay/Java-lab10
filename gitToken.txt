@@ -1,0 +1,3 @@
+Git token = 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
+
+30 days expires.

@@ -34,6 +34,11 @@ public class Data {
                     return; // If user wants to log all the bank that contains(accountNumber),
                     // user has to comment on return.
                 }
+
+                if (!bankAccount.contains(accountNumber)) {
+                    System.out.println("There is no bank account that you're looking for.");
+                    return;
+                }
             }
         }
     }
